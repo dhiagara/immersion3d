@@ -7,6 +7,16 @@
     width: 150px!important;
     z-index: 30000;
 }
+.line{
+    content: "";
+    display: block;
+    width: 50%;
+    height: 3px;
+    padding-left: 50%;
+    background: #601180;
+    margin: 40px 0 45px;
+    margin-left: 25%!important;
+}
 
 .light {
     content: url("../img/logo.png");

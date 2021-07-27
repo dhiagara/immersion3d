@@ -1481,3 +1481,21 @@ $(function () {
     format: "dd/mm/yyyy",
   });
 });
+// $("#prospects_form").submit(function (e) {
+//   e.preve
+$("#submitButtonId").click(function () {
+  var url = "path/to/your/script.php"; // the script where you handle the form input.
+
+  $.ajax({
+    type: "POST",
+    url: "https://submit.jotform.com/submit/212036211682546/",
+    data: $("#prospects_form").serialize(), // serializes the form's elements.
+    success: function (data) {
+      alert(
+        "MERCI pour votre  confiance  , notre  équipe se charge de traiter  votre  demande  Nous vous contactons par téléphone sous 24 heures "
+      ); // show response from the php script.
+    },
+  });
+
+  return false; // avoid to execute the actual submit of the form.
+});
