@@ -1491,9 +1491,7 @@ $("#submitButtonId").click(function () {
     url: "https://submit.jotform.com/submit/212036211682546/",
     data: $("#prospects_form").serialize(), // serializes the form's elements.
     success: function (data) {
-      alert(
-        "MERCI pour votre  confiance  , notre  équipe se charge de traiter  votre  demande  Nous vous contactons par téléphone sous 24 heures "
-      ); // show response from the php script.
+      $("#myModal").modal("show");
     },
   });
 

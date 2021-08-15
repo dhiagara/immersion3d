@@ -367,3 +367,49 @@ input, textarea {
 .active {
   opacity: 1 !important;
 }
+.modal-content2{
+  z-index: 100000;
+color: white;
+  background: rgb(206,12,132);
+  background: linear-gradient(90deg, rgba(206,12,132,1) 0%, rgba(152,12,132,1) 29%, rgba(101,19,130,1) 100%); border-radius: 30px;
+  text-align: center;
+-webkit-box-shadow: -3px 3px 15px 2px rgba(0,0,0,0.62); 
+box-shadow: -3px 3px 15px 2px rgba(0,0,0,0.62);
+}
+.modal-footer button{
+  background-color: rgba(206,12,132,1);
+  color: black;
+}
+@keyframes myAnimation{
+  0%{
+    display: contents;
+    opacity: 1;
+    transform: rotateX(90deg);
+  }
+  50%{
+    
+    display: contents;
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+
+  100%{
+    display: none;
+    opacity: 0;
+    transform: rotateX(90deg);
+  }
+
+}
+.modal-background{
+  width: 10%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  animation-name: myAnimation;
+  animation-duration: 10000ms;
+  animation-fill-mode:forwards;
+}

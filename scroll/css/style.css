@@ -17,6 +17,13 @@
     margin: 40px 0 45px;
     margin-left: 25%!important;
 }
+.custom-file-label::after {
+ 
+    color: white;
+    content: "Parcourir";
+    background-color: #601180;
+  
+}
 
 .light {
     content: url("../img/logo.png");
