@@ -14,7 +14,7 @@
     height: 3px;
     padding-left: 50%;
     background: #601180;
-    margin: 40px 0 45px;
+   margin-bottom: 45px;
     margin-left: 25%!important;
 }
 .custom-file-label::after {
@@ -48,15 +48,65 @@ p {
 }
 }
 @media  (max-width:600px) {
+    .partnScr {
+        padding:0px!important ;
+    }
     .partnScr p span {
        color: white!important;
-       background: #601180
+      
+       
+       background-color:rgba(96,17,128, 0.6)!important;
+       border-radius: 20px!important;
+       
     }
     .partnScr p  {
         color: white!important;
-        background: #601180
+      
+        background-color:rgba(96,17,128, 0.6)!important;
+        border-radius: 20px!important;
      }
     }
+    @media  (max-width:600px) {
+        .card-responsive  {
+            height: 150px!important;
+            padding: 0px!important;
+            margin-top: 5%!important;
+        }
+        .media-responsive{
+            width: 60%!important;
+        }
+        .gmap_canvas_responsive{
+            width: 350px!important;
+            height: 150px!important;
+        }
+        .vedio_responsive{
+            margin-left: 0px!important;
+        }
+        .responsive_row{
+            margin-top: 50px!important;
+        }
+        .responsive_row p{
+            margin-top: 5%!important;
+            text-align: center!important;
+            margin-bottom: 0px!important;
+        }
+        .responsive_row img{
+            max-width: 70px!important;
+            float: inherit!important;
+        }
+        .store_responsive{
+            margin-bottom: 5%!important;
+            
+        }
+        .store_responsive img{
+            max-width: 100%!important;
+            margin-left: 50%!important;
+           
+        }
+      
+        
+        }
+
 .form-control{
    
     border-color: #601180;
